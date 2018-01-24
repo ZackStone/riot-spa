@@ -1,0 +1,134 @@
+/* navbar fixada no topo */
+body {
+    padding-top: 60px; 
+    color: #969696;
+    /*background-color: #f3f3f3;*/
+}
+/* Fim: navbar fixada no topo */
+/* ======================================================================= */
+/* Loading */
+
+.ajax-loading {
+    height: 100%;
+}
+
+.loading {
+    display: grid;
+    height: 100%;
+}
+
+.loading .loading-child {
+    margin: auto;
+}
+
+.loader {
+    border: 3px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 3px solid #3498db;
+    border-bottom: 3px solid #3498db;
+    width: 20px;
+    height: 20px;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Fim: Loading */
+/* ======================================================================= */
+/* ??? */
+/*
+.navbar-header{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 45px;
+}
+
+.text-header{
+    font-size: 17px;
+    margin-left: 10px;
+    float: left;
+    color: #646464;
+}
+*/
+/* Fim: ??? */
+/* ======================================================================= */
+/* Custom Panel */
+
+.custom-panel {
+    position: relative;
+    margin-top: 30px;
+    border-radius: 0;
+    border: 1px solid #DCDCDC;
+    margin-bottom: 20px;
+}
+.custom-panel .panel-heading{
+    position: absolute;
+    top: -17px;
+    left: -1px;
+    padding: 5px 35px;
+    border: 1px solid #DCDCDC;
+    background: #F3F3F3;
+    color: #737373;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+.custom-panel .panel-body{
+    padding-top: 20px; 
+}
+
+/* Fim: Custom Panel */
+/* ======================================================================= */
+/* ??? */
+
+label {
+    font-weight: 600;
+    color: #969696;
+}
+
+.label-circle{
+    padding: 5px 15px;
+    border-radius: 10px !important;
+}
+.custom-label-default {
+    background-color: #FFFFFF;
+    color: #E0E0E0;
+    border: 1px solid #E0E0E0;
+}
+
+.no-padding{
+    padding: 0 !important;
+}
+
+/* Fim: ??? */
+/* ======================================================================= */
+/* tabela sem borda */
+table.table.borderless > thead > tr,
+table.table.borderless > thead > tr > th,
+table.table.borderless > tbody > tr,
+table.table.borderless > tbody > tr > td {
+    border: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+/* Fim: tabela sem borda */
+/* ======================================================================= */

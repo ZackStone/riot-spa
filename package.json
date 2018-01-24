@@ -1,0 +1,32 @@
+{
+  "name": "riot-spa",
+  "version": "1.0.0",
+  "description": "riot-spa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "browserify -t riotify Scripts/main.js | uglifyjs > Scripts/bundle.js",
+    "bundle-debug": "browserify -t riotify Scripts/main.js -o Scripts/bundle.js -d",
+    "bundle-watch": "watchify -t riotify Scripts/main.js -o Scripts/bundle.js -d -v"
+  },
+  "author": "Yitzhak Andrade",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "riot": "^3.6.3",
+    "riot-route": "^3.1.2",
+    "toastr": "^2.1.2"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "riotify": "^2.0.0",
+    "riot-compiler": "^3.2.4",
+    "uglify-es": "^3.1.0",
+    "watchify": "^3.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YitzhakAndrade/riot-spa.git"
+  }
+}
