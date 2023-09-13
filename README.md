@@ -4,4 +4,4 @@
 
 Example of a SPA (Single Page Appication) using [Riot.js](http://riotjs.com/).
 
-- Test it: https://yitzhakandrade.github.io/riot-spa
+- Test it: https://zackstone.github.io/riot-spa
